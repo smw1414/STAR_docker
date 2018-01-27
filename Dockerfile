@@ -17,7 +17,7 @@ WORKDIR /data
 
 
 # Define commonly used JAVA_HOME variable
-ENV PATH="/apps/STAR-2.5.4a/bin/Linux_x86_64_static:${PATH}"
+ENV PATH="/apps/STAR-${STAR_VERSION}/bin/Linux_x86_64_static:${PATH}"
 
 # VOLUME /data
 # Define default command.
